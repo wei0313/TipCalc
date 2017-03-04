@@ -1,25 +1,34 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12239fab-43a1-43d2-8244-91d3bd574b83",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DE132A42E938CB48D52F71BE2478E378FCF2EBB5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "12239fab-43a1-43d2-8244-91d3bd574b83" : {
-
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DE132A42E938CB48D52F71BE2478E378FCF2EBB5" : 9223372036854775807,
     "12239fab-43a1-43d2-8244-91d3bd574b83" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A3B7184-F4F2-4009-97C0-0FF3B8FDA2E5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "12239fab-43a1-43d2-8244-91d3bd574b83" : "agcodebase\/"
+    "DE132A42E938CB48D52F71BE2478E378FCF2EBB5" : "TipCal\/",
+    "12239fab-43a1-43d2-8244-91d3bd574b83" : "..\/..\/.."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TipCal",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "branches\/iOS_app\/TipCalc\/TipCal\/TipCal.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TipCal.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/subversion.assembla.com\/svn\/agcodebase",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12239fab-43a1-43d2-8244-91d3bd574b83"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wei0313\/iOSBootcamp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE132A42E938CB48D52F71BE2478E378FCF2EBB5"
     }
   ]
 }

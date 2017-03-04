@@ -35,8 +35,6 @@ class TipViewController: UIViewController {
             inc = 2
             defaults.set(inc, forKey: "increment")
         }
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -61,6 +59,7 @@ class TipViewController: UIViewController {
         
         calc()
         
+        billField.becomeFirstResponder()
     }
     
     override func viewDidAppear(_ animated: Bool) {

@@ -15,6 +15,7 @@
 		B669A9A61E66915800F7CD39 /* TipCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A9A51E66915800F7CD39 /* TipCalUITests.swift */; };
 		B669A9B41E66B1C300F7CD39 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A9B31E66B1C300F7CD39 /* SettingViewController.swift */; };
 		B6C6DD581E6A743800758361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6DD561E6A743800758361 /* Main.storyboard */; };
+		B6C6DD5A1E6B7B8700758361 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B6C6DD591E6B7B8700758361 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B669A9A71E66915800F7CD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B669A9B31E66B1C300F7CD39 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		B6C6DD571E6A743800758361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6C6DD591E6B7B8700758361 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		B669A9791E66915700F7CD39 = {
 			isa = PBXGroup;
 			children = (
+				B6C6DD591E6B7B8700758361 /* README */,
 				B669A9841E66915800F7CD39 /* TipCal */,
 				B669A9991E66915800F7CD39 /* TipCalTests */,
 				B669A9A41E66915800F7CD39 /* TipCalUITests */,
@@ -238,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C6DD5A1E6B7B8700758361 /* README in Resources */,
 				B6C6DD581E6A743800758361 /* Main.storyboard in Resources */,
 				B669A9901E66915800F7CD39 /* LaunchScreen.storyboard in Resources */,
 				B669A98D1E66915800F7CD39 /* Assets.xcassets in Resources */,
