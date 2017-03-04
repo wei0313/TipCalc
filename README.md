@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Pre-work - Tip Calulator
 
-You can use the [editor on GitHub](https://github.com/wei0313/iOSBootcamp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Name of your app** is a tip calculator application for iOS.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Submitted by: Agnes Sun
 
-### Markdown
+Time spent: 3 hours spent in total
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## User Stories
 
-```markdown
-Syntax highlighted code block
+The following **required** functionality is complete:
 
-# Header 1
-## Header 2
-### Header 3
+* [ v ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [ v ] Settings page to change the default tip percentage.
 
-- Bulleted
-- List
+The following **optional** features are implemented:
+* [ v ] UI animations (on the setting page to display the changing in tip value)
+* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Using locale-specific currency and currency thousands separators.
+* [ v ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-1. Numbered
-2. List
+The following **additional** features are implemented:
 
-**Bold** and _Italic_ and `Code` text
+- [ ] List anything else that you can get done to improve the app functionality!
+* adding the capability to store the past bill amount
+* adding locale
+* adding currency field to convert from USD -> whatever the currency it is
 
-[Link](url) and ![Image](src)
-```
+## Video Walkthrough
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Here's a walkthrough of implemented user stories:
 
-### Jekyll Themes
+<img src='https://github.com/wei0313/iOSBootcamp/blob/iOSBootcamp/TipCalc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wei0313/iOSBootcamp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-### Support or Contact
+## Notes
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Describe any challenges encountered while building the app.
+
+## License
+
+Copyright [2017] [Agnes Sun]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
