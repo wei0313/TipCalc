@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B669A9861E66915800F7CD39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A9851E66915800F7CD39 /* AppDelegate.swift */; };
-		B669A9881E66915800F7CD39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A9871E66915800F7CD39 /* ViewController.swift */; };
-		B669A98B1E66915800F7CD39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B669A9891E66915800F7CD39 /* Main.storyboard */; };
+		B669A9881E66915800F7CD39 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A9871E66915800F7CD39 /* TipViewController.swift */; };
 		B669A98D1E66915800F7CD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B669A98C1E66915800F7CD39 /* Assets.xcassets */; };
 		B669A9901E66915800F7CD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B669A98E1E66915800F7CD39 /* LaunchScreen.storyboard */; };
 		B669A99B1E66915800F7CD39 /* TipCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A99A1E66915800F7CD39 /* TipCalTests.swift */; };
 		B669A9A61E66915800F7CD39 /* TipCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A9A51E66915800F7CD39 /* TipCalUITests.swift */; };
+		B669A9B41E66B1C300F7CD39 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669A9B31E66B1C300F7CD39 /* SettingViewController.swift */; };
+		B6C6DD581E6A743800758361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6DD561E6A743800758361 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,7 @@
 /* Begin PBXFileReference section */
 		B669A9821E66915800F7CD39 /* TipCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B669A9851E66915800F7CD39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B669A9871E66915800F7CD39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B669A98A1E66915800F7CD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B669A9871E66915800F7CD39 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		B669A98C1E66915800F7CD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B669A98F1E66915800F7CD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B669A9911E66915800F7CD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		B669A9A11E66915800F7CD39 /* TipCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B669A9A51E66915800F7CD39 /* TipCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalUITests.swift; sourceTree = "<group>"; };
 		B669A9A71E66915800F7CD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B669A9B31E66B1C300F7CD39 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B6C6DD571E6A743800758361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 		B669A9841E66915800F7CD39 /* TipCal */ = {
 			isa = PBXGroup;
 			children = (
+				B6C6DD561E6A743800758361 /* Main.storyboard */,
+				B669A9B31E66B1C300F7CD39 /* SettingViewController.swift */,
 				B669A9851E66915800F7CD39 /* AppDelegate.swift */,
-				B669A9871E66915800F7CD39 /* ViewController.swift */,
-				B669A9891E66915800F7CD39 /* Main.storyboard */,
+				B669A9871E66915800F7CD39 /* TipViewController.swift */,
 				B669A98C1E66915800F7CD39 /* Assets.xcassets */,
 				B669A98E1E66915800F7CD39 /* LaunchScreen.storyboard */,
 				B669A9911E66915800F7CD39 /* Info.plist */,
@@ -235,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C6DD581E6A743800758361 /* Main.storyboard in Resources */,
 				B669A9901E66915800F7CD39 /* LaunchScreen.storyboard in Resources */,
 				B669A98D1E66915800F7CD39 /* Assets.xcassets in Resources */,
-				B669A98B1E66915800F7CD39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B669A9881E66915800F7CD39 /* ViewController.swift in Sources */,
+				B669A9881E66915800F7CD39 /* TipViewController.swift in Sources */,
 				B669A9861E66915800F7CD39 /* AppDelegate.swift in Sources */,
+				B669A9B41E66B1C300F7CD39 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +303,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B669A9891E66915800F7CD39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B669A98A1E66915800F7CD39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B669A98E1E66915800F7CD39 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B669A98F1E66915800F7CD39 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C6DD561E6A743800758361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C6DD571E6A743800758361 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -512,6 +516,7 @@
 				B669A9AC1E66915800F7CD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B669A9AD1E66915800F7CD39 /* Build configuration list for PBXNativeTarget "TipCalTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				B669A9AF1E66915800F7CD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B669A9B01E66915800F7CD39 /* Build configuration list for PBXNativeTarget "TipCalUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				B669A9B21E66915800F7CD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
